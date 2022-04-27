@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def home_view(*args, **kwargs):
     return HttpResponse('<h1>Good start</h1>')
+
+def contact_view(*args, **kwargs):
+    return HttpResponse('<h1>Contact Page</h1>')
